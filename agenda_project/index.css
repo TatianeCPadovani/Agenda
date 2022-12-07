@@ -1,0 +1,151 @@
+
+
+#box01{
+    background-color: rgb(73, 77, 95);
+    height: 550px;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
+    float: left;
+    margin: 10px;
+}
+
+#box02{
+    background-color: rgb(73, 77, 95);
+    height: 590px; 
+    width: 45%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
+    float: left;
+    margin: 10px;
+
+}
+
+#box03{
+    display: inline-block;
+    position: absolute;
+    left: 550px;
+    top: 400px;
+
+}
+
+#agenda{
+    background-color: rgb(73, 77, 95);
+    height: 590px;
+    width: 22%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
+    float: left;
+    margin: 10px;
+
+
+}
+
+
+#mostrar, #mostrarNome{
+    color: white;
+    font-size: 30px;
+}
+
+.tecla{
+    background-color: rgb(126, 147, 216);
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
+    font-size: 30px;
+   
+}
+
+.tecla02{
+    background-color: rgb(76, 89, 129);
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
+    font-size: 20px;
+
+} 
+
+.tecla:hover,.teclaAlfabeto:hover{
+    background-color: rgb(76, 89, 129);
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.459); 
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+.teclaAlfabeto{
+    background-color: rgb(126, 147, 216);
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+
+
+.espaco{
+    width: 120px;
+}
+
+
+
+.tEnviar:hover{
+    background-color: rgb(76, 129, 85);
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.459); 
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.tLimpar, .tEnviar{
+    width: 200px;
+    
+  
+}
+
+.tLimpar:hover{
+    background-color: rgb(129, 82, 76);
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.459); 
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.itemAgenda{
+    background-color: rgb(126, 147, 216);
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    vertical-align: middle;
+    line-height: 2;
+     margin: auto;
+     margin-top: 10px;
+
+}
+
+.itemAgenda:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(76, 89, 129);
+
+}
+
+
+
